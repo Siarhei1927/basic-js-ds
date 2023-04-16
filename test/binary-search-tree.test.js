@@ -147,6 +147,7 @@ describe('Binary search tree', () => {
       tree.add(1);
       tree.remove(6);
       tree.remove(2);
+      
       assert.strictEqual(tree.max(), 54);
     });
 
