@@ -145,6 +145,7 @@ class BinarySearchTree {
     this.remove(12);
     this.remove(128);
     this.remove(32);
+    
     if (!this.root.data) {
       return null;
     }
